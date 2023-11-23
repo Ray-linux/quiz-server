@@ -6,7 +6,7 @@ import router from './router/route.js';
 import connect from './database/conn.js';
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 config();
 
 
